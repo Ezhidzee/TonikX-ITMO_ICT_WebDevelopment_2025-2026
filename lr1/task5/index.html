@@ -11,16 +11,16 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>ITMO Web Labs</title>
+        <title>ЛР1 — Задание 5 (HTTP): Журнал оценок - ITMO Web Labs</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.e53b48f4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
       
       
 
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-5-http" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="ITMO Web Labs" class="md-header__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
+    <a href="../.." title="ITMO Web Labs" class="md-header__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              ЛР1 — Задание 5 (HTTP): Журнал оценок
             
           </span>
         </div>
@@ -167,7 +172,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="ITMO Web Labs" class="md-nav__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
+    <a href="../.." title="ITMO Web Labs" class="md-nav__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -185,7 +190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lr1/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -207,7 +212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lr2/" class="md-nav__link">
+      <a href="../../lr2/" class="md-nav__link">
         
   
   
@@ -239,6 +244,43 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как запустить
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как пользоваться
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Выводы
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -250,8 +292,64 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="1-5-http">ЛР1 — Задание 5 (HTTP): Журнал оценок</h1>
+<p><strong>Идея:</strong> простой сервер на <code>socket</code>, храним оценки в памяти.
+- <code>GET /</code> или <code>/index.html</code> — выдаёт HTML-страницу со списком дисциплин и оценок.
+- <code>GET /form</code> — отдаёт HTML-форму для добавления новой оценки.
+- <code>POST /add</code> — принимает данные (<code>subject</code>, <code>grade</code>) в формате <code>application/x-www-form-urlencoded</code>, добавляет запись и делает редирект обратно на <code>/</code>.
+- Оценки агрегируются по дисциплине</p>
+<h2 id="_1">Как запустить</h2>
+<pre><code class="language-bash">python http_grades_min_task5.py
+# затем в браузер:
+# http://127.0.0.1:8081/
+</code></pre>
+<h2 id="_2">Как пользоваться</h2>
+<ol>
+<li><code>http://127.0.0.1:8081/</code> - список оценок (пока пустой) и ссылку «Добавить оценку».</li>
+<li><code>http://127.0.0.1:8081/form</code> — откроется форма для ввода дисциплины и оценки.</li>
+<li>После отправки формы сервер сделает редирект на <code>/</code>, где уже появится новая запись.</li>
+</ol>
+<p><img alt="img_11.png" src="../img_11.png" /></p>
+<p><img alt="img_12.png" src="../img_12.png" /></p>
+<p><img alt="img_13.png" src="../img_13.png" /></p>
+<p><img alt="img_14.png" src="../img_14.png" /></p>
+<p><img alt="img_15.png" src="../img_15.png" /></p>
+<p><img alt="img_16.png" src="../img_16.png" /></p>
+<p><img alt="img_17.png" src="../img_17.png" /></p>
+<h2 id="_3">Выводы</h2>
+<p>В ходе выполнения задания я:</p>
+<ul>
+<li>Реализовал мини-веб-сервер на <strong>TCP-сокетах</strong>, обрабатывающий <strong>HTTP-запросы</strong> типов <code>GET</code> и <code>POST</code> без использования фреймворков.</li>
+<li>Научился вручную парсить HTTP-заголовки, определять <code>Content-Length</code> и корректно читать тело запроса.</li>
+<li>Освоил работу с кодировкой формата <strong>application/x-www-form-urlencoded</strong> и функцией <code>parse_qs()</code> для разбора данных формы.</li>
+<li>Реализовал три маршрута:<ul>
+<li><code>/</code> и <code>/index.html</code> — вывод таблицы с дисциплинами и оценками;</li>
+<li><code>/form</code> — отображение HTML-формы для добавления новой оценки;</li>
+<li><code>/add</code> — приём данных методом POST, добавление записи в память и редирект (<code>303 See Other</code>) на главную страницу.</li>
+</ul>
+</li>
+<li>Научился формировать корректные HTTP-ответы с заголовками <code>Content-Type</code>, <code>Content-Length</code> и <code>Connection: close</code>.</li>
+<li>Добавил базовую валидацию и экранирование данных для защиты от XSS.</li>
+<li>Проверил работу в браузере: после добавления оценки страница обновляется, и запись появляется в таблице.</li>
+</ul>
+<p>В результате я закрепил понимание структуры HTTP-протокола, научился формировать ответы и обрабатывать запросы вручную, а также получил опыт разработки простых серверных приложений на чистых сокетах.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -287,10 +385,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>

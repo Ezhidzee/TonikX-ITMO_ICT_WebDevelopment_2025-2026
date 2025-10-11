@@ -11,16 +11,16 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
     
     
       
-        <title>ITMO Web Labs</title>
+        <title>ЛР1 — Задание 2 (TCP): Математическая операция - ITMO Web Labs</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.e53b48f4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
       
       
 
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#1-2-tcp" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="ITMO Web Labs" class="md-header__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
+    <a href="../.." title="ITMO Web Labs" class="md-header__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -89,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              ЛР1 — Задание 2 (TCP): Математическая операция
             
           </span>
         </div>
@@ -167,7 +172,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="ITMO Web Labs" class="md-nav__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
+    <a href="../.." title="ITMO Web Labs" class="md-nav__button md-logo" aria-label="ITMO Web Labs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -185,7 +190,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lr1/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -207,7 +212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/lr2/" class="md-nav__link">
+      <a href="../../lr2/" class="md-nav__link">
         
   
   
@@ -239,6 +244,58 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#json" class="md-nav__link">
+    <span class="md-ellipsis">
+      Протокол обмена (JSON, одна строка)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Как запустить
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Как запустить">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Пример
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      Выводы
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -250,8 +307,68 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+
+<h1 id="1-2-tcp">ЛР1 — Задание 2 (TCP): Математическая операция</h1>
+<p><strong>Номер в журнале: 35 → вариант 3: <em>площадь трапеции</em></strong><br />
+Формула: <strong>S = (a + b) / 2 · h</strong>, где <code>a</code> и <code>b</code> — основания, <code>h</code> — высота.</p>
+<h2 id="json">Протокол обмена (JSON, одна строка)</h2>
+<p>Клиент → сервер (оканчивается <code>\n</code>):</p>
+<pre><code class="language-json">{ &quot;op&quot;: &quot;trapezoid&quot;, &quot;a&quot;: 10, &quot;b&quot;: 6, &quot;h&quot;: 4 }
+</code></pre>
+<p>Сервер → клиент:</p>
+<pre><code class="language-json">{ &quot;status&quot;: &quot;ok&quot;, &quot;result&quot;: 32.0 }
+</code></pre>
+<p>или</p>
+<pre><code class="language-json">{ &quot;status&quot;: &quot;error&quot;, &quot;message&quot;: &quot;описание проблемы&quot; }
+</code></pre>
+<h2 id="_1">Как запустить</h2>
+<ol>
+<li>Сервер (терминал 1):
+   <code>bash
+   python tcp_server_task2.py</code></li>
+<li>Клиент (терминал 2):
+   <code>bash
+   python tcp_client_task2.py</code>
+   Введите значения <code>a</code>, <code>b</code>, <code>h</code> по запросу клиента.</li>
+</ol>
+<h3 id="_2">Пример</h3>
+<pre><code>Задание 2 (вариант 3): площадь трапеции S = (a + b) / 2 * h
+Введите основание a: 10
+Введите основание b: 6
+Введите высоту h: 4
+Отправляем запрос серверу: {'op': 'trapezoid', 'a': 10.0, 'b': 6.0, 'h': 4.0}
+Результат: S = 32.0
+</code></pre>
+<p><img alt="img_2.png" src="../img_2.png" /></p>
+<p><img alt="img_3.png" src="../img_3.png" /></p>
+<p><img alt="img_4.png" src="../img_4.png" /></p>
+<h2 id="_3">Выводы</h2>
+<p>В ходе выполнения задания я:</p>
+<ul>
+<li>Реализовал <strong>TCP-клиента и сервер</strong> для обмена структурированными данными в формате <strong>JSON</strong>.</li>
+<li>Научился устанавливать и использовать <strong>надёжное соединение TCP</strong>, в отличие от UDP.</li>
+<li>Освоил формирование и обработку сообщений в JSON-формате (<code>json.dumps</code>, <code>json.loads</code>).</li>
+<li>Реализовал вычисление площади трапеции по формуле <strong>S = (a + b) / 2 · h</strong> с проверкой корректности введённых данных.</li>
+<li>Добавил обработку ошибок и возврат ответов с полями <code>"status"</code> и <code>"message"</code>.</li>
+<li>Проверил обмен: клиент отправляет параметры, сервер вычисляет и возвращает результат — связь работает корректно.</li>
+</ul>
+<p>В результате я понял, как работает передача данных по TCP, чем он отличается от UDP, и как можно использовать JSON-протокол для обмена структурированной информацией между приложениями.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -287,10 +404,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="/assets/javascripts/bundle.f55a23d4.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
       
     
   </body>
